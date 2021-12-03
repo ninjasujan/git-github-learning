@@ -10,8 +10,14 @@
 ---
 
 2. Undoing `unstaged` changes.
+
    - using checkout
      `git checkout .ß
+   - using restore -
+     `git restore .` or `git restore initial.txt`
+
+   - using checkout
+     `git checkout .`
    - using restore -
      `git restore .` or `git restore initial.txt`
 
