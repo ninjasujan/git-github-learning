@@ -12,7 +12,7 @@
 2. Undoing `unstaged` changes.
 
    - using checkout
-     `git checkout .ß
+     `git checkout .
    - using restore -
      `git restore .` or `git restore initial.txt`
 
@@ -56,13 +56,13 @@
 
 ---
 
-**Git advance command**
+#### Git advance command
 
 1. Git stash
    Git stash command temporarily undo the untracked changes from WD.
    command: `git stash` - will go the initial
    `git stash push -m <message>`
-   commint stage.
+   commit stage.
 
    Apply the stash
    To apply the stash we need to clean the untracked changes.(should have that initial commit)
@@ -74,3 +74,15 @@
 
    Droping the stash
    `git stash drop <index>`
+
+   ***
+
+2. Git Reflog
+   Reflog helps to bring the lost data back
+   `git reflog`
+   Gives all command history
+
+---
+
+3. Abort the merge
+   `git merge --abort`
