@@ -29,8 +29,10 @@
 ---
 
 4. Undoing staged changes
-   Using restore and checkout command
+   Using both restore and checkout command.
+   First need to unstage the chnages.
    `git restore --staged .`
+   Second remove the unstaged changes.
    `git checkout .`
 
 ---
